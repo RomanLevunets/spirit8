@@ -50,7 +50,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background: #fff;
   z-index: 999;
   background-image: url("../img/preloader.gif");
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@
   top: 0;
   z-index: 10;
   width: 100%;
-  font: 100% "lato-bold", arial, sans-serif;
+  font: 100% "lato-bold", sans-serif;
   color: #fff; }
   .header__logo {
     float: left; }
@@ -110,7 +110,7 @@
     display: inline-block;
     text-transform: uppercase;
     position: relative; }
-    .menu__item.active-h::after, .menu__item.about__text_hd::after {
+    .menu__item.active-h::after {
       display: block;
       content: " ";
       position: absolute;
@@ -203,13 +203,13 @@
       -ms-transform: translateX(-50%);
           transform: translateX(-50%); }
   .homeText__hd {
-    font: 100% "OpenSans-Light", arial, sans-serif;
+    font: 100% "OpenSans-Light", sans-serif;
     font-size: 44px; }
     .homeText__hd_bold, .homeText__sub_bold {
       color: #F8A944;
-      font: 100% "OpenSans-Bold", arial, sans-serif; }
+      font: 100% "OpenSans-Bold", sans-serif; }
   .homeText__sub, .about__text_sp, .about__text_hd, .about__text_inf {
-    font: 100% "OpenSans", arial, sans-serif;
+    font: 100% "OpenSans", sans-serif;
     font-size: 20px;
     text-transform: none; }
     .homeText__sub_bold {
@@ -243,7 +243,7 @@
   background: #fff; }
 
 .textBold {
-  font: 100% "OpenSans-Bold", arial, sans-serif; }
+  font: 100% "OpenSans-Bold", sans-serif; }
 
 .about, .container {
   max-width: 1170px;
@@ -275,7 +275,12 @@
       position: relative;
       margin-bottom: 50px; }
       .about__text_hd::after {
+        display: block;
+        content: " ";
+        position: absolute;
+        bottom: 0;
         left: 0;
+        height: 3px;
         width: 20%;
         background: #F8A944;
         bottom: -20px; }
@@ -285,7 +290,7 @@
     .about__text_browse {
       text-transform: uppercase;
       text-decoration: none;
-      font: 100% "OpenSans-Semibold", arial, sans-serif;
+      font: 100% "OpenSans-Semibold", sans-serif;
       font-size: 12px;
       color: #636363;
       padding: 13px 25px;
@@ -320,7 +325,7 @@
   margin: 44px 0; }
   .list__item {
     color: #5A5A5A;
-    font: 100% "OpenSans-Semibold", arial, sans-serif;
+    font: 100% "OpenSans-Semibold", sans-serif;
     font-size: 18px;
     line-height: 1.6;
     position: relative; }
@@ -338,7 +343,7 @@
       background-position: center;
       background-reopeat: no-repeat; }
     .list__item_curs {
-      font: 100% "OpenSans-Italic", arial, sans-serif;
+      font: 100% "OpenSans-Italic", sans-serif;
       font-size: 16px; }
 
 .section3, .section5, .section7, .section9 {
@@ -352,7 +357,7 @@
   .container__txt {
     color: #fff;
     text-transform: uppercase;
-    font: 100% "OpenSans-Light", arial, sans-serif;
+    font: 100% "OpenSans-Light", sans-serif;
     font-size: 44px;
     position: relative;
     margin-bottom: 35px;
@@ -383,12 +388,12 @@
       height: 4px;
       background: #F8A944; }
     .container__txt_bold {
-      font: 100% "OpenSans-Semibold", arial, sans-serif; }
+      font: 100% "OpenSans-Semibold", sans-serif; }
 
 .owl-team {
   width: 100%;
   padding: 0;
-  font: 100% "OpenSans", arial, sans-serif;
+  font: 100% "OpenSans", sans-serif;
   margin-top: 120px; }
   .owl-team__person {
     width: 100%;
@@ -416,12 +421,12 @@
       display: block;
       margin: 0 auto; }
     .owl-team__person_name {
-      font: 100% "OpenSans", arial, sans-serif;
+      font: 100% "OpenSans", sans-serif;
       font-size: 16px;
       text-decoration: none;
       color: #fff; }
     .owl-team__person_name-b {
-      font: 100% "OpenSans-Bold", arial, sans-serif;
+      font: 100% "OpenSans-Bold", sans-serif;
       font-size: 20px; }
     .owl-team__person_info {
       margin: 33px 0 0;
@@ -459,7 +464,7 @@
   width: 100%;
   padding: 40px 0 0 0; }
   .services__text, .portfolio__txt, .wr-contact__txt {
-    font: 100% "OpenSans-Italic", arial, sans-serif;
+    font: 100% "OpenSans-Italic", sans-serif;
     color: #636363;
     margin-bottom: 85px; }
 
@@ -488,7 +493,7 @@
             -ms-transform: scale(1.1);
                 transform: scale(1.1); }
     .jobs__item_hd {
-      font: 100% "OpenSans-Semibold", arial, sans-serif;
+      font: 100% "OpenSans-Semibold", sans-serif;
       font-size: 25px;
       color: #111;
       text-decoration: none;
@@ -497,7 +502,7 @@
       display: block;
       text-transform: uppercase; }
     .jobs__item_txt {
-      font: 100% "OpenSans", arial, sans-serif;
+      font: 100% "OpenSans", sans-serif;
       font-size: 14px;
       color: #636363; }
 
@@ -531,7 +536,7 @@
 .filter {
   padding: 0 15px 35px; }
   .filter-sort {
-    font: 100% "OpenSans-Semibold", arial, sans-serif;
+    font: 100% "OpenSans-Semibold", sans-serif;
     font-size: 18px;
     color: #111;
     text-align: left;
@@ -560,13 +565,13 @@
       .filter-right__item_txt {
         text-decoration: none;
         color: #636363;
-        font: 100% "OpenSans", arial, sans-serif;
+        font: 100% "OpenSans", sans-serif;
         font-size: 18px;
         -webkit-transition: .3s linear;
         -o-transition: .3s linear;
         transition: .3s linear; }
         .filter-right__item_txt.active {
-          font: 100% "OpenSans-Semibold", arial, sans-serif;
+          font: 100% "OpenSans-Semibold", sans-serif;
           color: #111;
           font-size: 18px; }
         .filter-right__item_txt:hover {
@@ -608,7 +613,7 @@
   -webkit-transition: 1s ease;
   -o-transition: 1s ease;
   transition: 1s ease;
-  font: 100% "OpenSans-Semibold", arial, sans-serif; }
+  font: 100% "OpenSans-Semibold", sans-serif; }
   .portfolio-hover__head {
     font-size: 20px;
     color: #fff;
@@ -652,12 +657,12 @@
       float: none;
       text-align: center;
       padding-bottom: 50px;
-      font: 100% "OpenSans-Semibold", arial, sans-serif;
+      font: 100% "OpenSans-Semibold", sans-serif;
       font-size: 18px;
       text-transform: uppercase; }
     .owl-testimonials__item_s-txt {
       color: #9D9D9D;
-      font: 100% "OpenSans-Light", arial, sans-serif;
+      font: 100% "OpenSans-Light", sans-serif;
       font-size: 18px; }
 
 .wr-contact {
@@ -676,7 +681,7 @@
   .c-form__name, .c-form__email, .c-form__message {
     padding: 15px;
     display: block;
-    font: 100% "OpenSans", arial, sans-serif;
+    font: 100% "OpenSans", sans-serif;
     font-size: 14px; }
     .c-form__name_meth, .c-form__email_meth, .c-form__message_meth {
       display: block;
@@ -697,7 +702,7 @@
     float: right;
     padding: 8px 0;
     text-transform: uppercase;
-    font: 100% "OpenSans-Semibold", arial, sans-serif;
+    font: 100% "OpenSans-Semibold", sans-serif;
     border: none;
     background: #F8A944;
     color: #fff;
@@ -729,7 +734,7 @@
   .footer__txt {
     color: #636363;
     padding: 40px 0;
-    font: 100% "OpenSans", arial, sans-serif;
+    font: 100% "OpenSans", sans-serif;
     font-size: 12px;
     float: left;
     line-height: 3; }
@@ -759,6 +764,9 @@
         -webkit-transform: scale(1.2);
             -ms-transform: scale(1.2);
                 transform: scale(1.2); }
+
+.error {
+  border-color: #ff0000; }
 
 @media (max-width: 1024px) {
   .content-portfolio__item {

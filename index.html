@@ -9,12 +9,12 @@
 </head>
 <body>
 	<div class="wrapper">
+		<div class="preloader"></div>
 		<section class="section1" >
 			<header class="header clearfix">
-			<div class="preloader"></div>
 				<div class="center">
 				<div class="header__logo logo clearfix">
-					<a href="#" class="header__logo_meth">spirit8</a>
+					<a href="index.html" class="header__logo_meth">spirit8</a>
 				</div>
 				<nav class="header__nav clearfix active-b">
 					<div class="burger ">
@@ -25,7 +25,7 @@
 					</div>
 					<div class="hidden">
 						<ul class="b-menu">
-							<li class="b-menu__item"><a href="#" class="b-menu__item_link">home</a></li>
+							<li class="b-menu__item"><a href="index.html" class="b-menu__item_link">home</a></li>
 							<li class="b-menu__item"><a href="about.html" class="b-menu__item_link">about</a></li>
 							<li class="b-menu__item"><a href="services.html" class="b-menu__item_link">services</a></li>
 							<li class="b-menu__item"><a href="portfolio.html" class="b-menu__item_link">portfolio</a></li>
@@ -61,7 +61,7 @@
 				<p class="homeText__sub">We are a digital agency with <span class="homeText__sub_bold">years of experience</span> and <span class="homeText__sub_bold">with extra</span></p>
 			</div>
 			<div class="arrowDown">
-				<a href="#" class="arrowDown__font"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></a>
+				<a href="#footer" class="arrowDown__font"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></a>
 			</div>
 		</section>
 		<section class="section2 " id="fixed-header">
@@ -340,26 +340,26 @@
 				<h2 class="container__txt">feel free to <span class="container__txt_bold">contact us</span></h2>
 				<div class="wr-contact">
 					<p class="wr-contact__txt">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. </p>
-					<form action="#" class="wr-contact__txt c-form clearfix">
+					<form action="/" class="wr-contact__txt c-form clearfix" method="post" id="form-message">
 						<div class="item-form ">
 							<label for="name" class="c-form__name">Name
-								<input type="text" name="name" id="name" class="c-form__name_meth" required>
+								<input type="text" name="form__name" id="name" class="c-form__name_meth">
 							</label>
 						</div>
 						<div class="item-form">
 							<label for="email" class="c-form__email">Email adress
-								<input type="email" name="email" id="email" class="c-form__email_meth " required>
+								<input type="email" name="form__email" id="email" class="c-form__email_meth ">
 							</label>
 						</div>
 						<label for="message" class="c-form__message">Message
-							<textarea name="message" id="message" class="c-form__message_meth"></textarea>
+							<textarea name="form__message" id="message" class="c-form__message_meth" ></textarea>
 						</label>
-						<input type="submit" name=" send" value="Send" class="c-form__send">
+						<input type="submit" name="form__send" value="Send" class="c-form__send">
 					</form>
 				</div>
 			</div>
 		</section>
-		<section class="section9">
+		<section class="section9" id="footer">
 			<footer class="footer clearfix">
 				<p class="footer__txt">ALL RIGHTS RESERVED. COPYRIGHT © 2017 <span class="textBold">SPIRIT8</span></p>
 				<ul class="social">
